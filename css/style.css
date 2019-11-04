@@ -2,3 +2,31 @@ body {
   color: black;
   background-color: gray;
 }
+
+.ep-list { /*div*/
+  border: 2px solid black;
+  max-width: 80vw;
+  margin: auto;
+}
+
+.modal-container {
+  display: none;
+}
+
+.modal-container.is-visible {
+  color: #000;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal {
+  color: #000;
+  background-color: #fff;
+}
+
+.modal-close { /*button element in modal*/
+
+}
+
+.current-list-item { /*li element*/
+
+}
